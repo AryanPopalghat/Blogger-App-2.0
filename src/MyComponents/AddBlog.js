@@ -5,15 +5,20 @@ function AddBlog(props) {
     const [desc, setDesc] = useState('');
     const[link, setLink] = useState('');
     const submit = (e) => {
-        /* to void reloading */
+        /* to avoid reloading */
         e.preventDefault();
         if(!title || !desc ||!link){
-            alert("Title or Description can't be blank")
+            alert("Title or Description or Image link can't be blank")
         }
+        else{
         props.addBlog(title,desc,link);
+        setTitle("");
+        setDesc("");
+        setLink("");
+        }
     };
     return (
-        <div className='container'>
+        <div className='container-fluid'>
             <h3>Add your Blog here</h3>
             <form onSubmit={submit}>
                 <div class="mb-3">
