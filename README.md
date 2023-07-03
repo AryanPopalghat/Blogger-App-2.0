@@ -1,6 +1,6 @@
 ## Blogger App 
 I have created this blogger app as a self project using react. This app has many features. You can also navigate from home page to about page, contact page, etc.
-# Remember to install files given in gitignore before running the app on your local server. (Because files such as node_modules which are large are not uploaded on github)
+### Remember to install files given in gitignore before running the app on your local server. (Because files such as node_modules which are large are not uploaded on github)
 Some features of the app are as follows:
 When you open the website for the first time, you will see two blogs. You can add your own blogs by filling out the form on the main page. You can also delete a blog. Please note that all three entries in the form (blog title, description, and image link) are required. If you leave any field blank and try to submit the form, you will receive an alert to fill in the missing entry. Your blog will only be added when you have filled in all the required fields.
 
