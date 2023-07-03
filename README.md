@@ -1,4 +1,4 @@
-## Blogger App 
+# Blogger App 
 I have created this blogger app as a self project using react. This app has many features. You can also navigate from home page to about page, contact page, etc.
 ### Remember to install files given in gitignore before running the app on your local server. (Because files such as node_modules which are large are not uploaded on github)
 Some features of the app are as follows:
